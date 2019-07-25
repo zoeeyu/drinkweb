@@ -4,31 +4,48 @@
 <html lang="zh">
     <!-- 頭部:網頁描述 -->
 <head>
-    <!-- 網頁編碼:萬國碼 -->
+    <!-- 編碼:萬國碼 -->
     <meta charset="UTF-8">
     <!-- RWB 目前不用 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- 網頁title -->
-    <title>drinkweb</title>
+    <!-- 網頁title，瀏覽器title -->
+    <title>drink</title>
+    <!-- css樣式，內部樣式 -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            background-color:rgba(0,0,0,0.3);
+            height: 500px;
+        }
+        #nav{
+            display: inline-block;
+        }
+    </style>
 </head>
 <!-- 身體 網頁內容 -->
 <body>
-    <header>
-
-        <ul>
-            <li>關於B Shop</li>
-            <li>的故事</li>
-            <li>聯絡B Shop</li>
-        </ul>
-    </header>
-    <main>
-        <h1>我們是商店</h1>
-        <h4>我們提供品質最好的原料，並細心打造各種產品提供給喜愛我們的客戶。</h4>
-    
-    </main>
-    <footer>
-        
-    </footer>
+    <div id="box">
+        <!-- nav 增加導覽列,放logo、分頁,有助於提升SEO -->
+        <nav>
+            <a href="index.html">飲料店</a>
+            <div id="nav">
+                <a href="#">關於我</a>
+                <a href="#">故事</a>
+                <a href="#">聯絡我</a>
+            </div>
+        </nav>
+        <main>
+            <h1>我們是商店</h1>
+            <h4>我們提供品質最好的原料，並細心打造各種產品提供給喜愛我們的客戶。</h4>
+            <button></button>
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
 </body>
 </html>
