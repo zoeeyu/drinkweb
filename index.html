@@ -43,7 +43,7 @@
         </nav>
         <main>
             <!-- 用Section也可以,是內容區塊,通常放內文,段落,按鈕... -->
-            <section>
+            <section id="content">
                 <h1>我們是Zoe飲料店</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, hic.
@@ -53,17 +53,18 @@
                 <hr>
             </section>
             <!-- 圖片按鈕區塊 -->
-            <section>
+            <section id="button">
                 <!-- (a[href="#"]>img)*3             -->
-                <a href="#"><img src="image/person.png" alt="關於我"></a>
-                <a href="#"><img src="image/drink.png" alt="Zoe 飲料店"></a>
+                <a href="#" class="button-mr"><img src="image/person.png" alt="關於我"></a>
+                <a href="#" class="button-mr"><img src="image/drink.png" alt="Zoe 飲料店"></a>
                 <a href="#"><img src="image/contact.png" alt="聯絡我"></a>   
             </section>
         </main>
         <!-- 頁尾 -->
+    </div>
+    <!-- 多行換行可以選取來,按alt+上/下 -->
         <footer>
             Zoe 飲料店 &copy; 2019
         </footer>            
-    </div>
 </body>
 </html>
