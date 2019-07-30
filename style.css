@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    /* 可以查看各區域邊框 */
+    border: 0.5px solid rgba(200,0,0,0.5);
     /* 字體 ff */
     font-family: 微軟正黑體;
     /* 字體顏色 c#fff(xxx裡面填顏色代碼,ex:白色fff) */
