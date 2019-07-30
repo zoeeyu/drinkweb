@@ -8,6 +8,7 @@
     /* 字體顏色 c#fff(xxx裡面填顏色代碼,ex:白色fff) */
     color: #ffffff;
 }
+
 body{
     height: 100%;
     /* 背景來源 bgi */
@@ -15,10 +16,30 @@ body{
     /* 背景尺寸 bgs */
     background-size: 150%;
 }
+
+/* 盒子區塊 */
 #box{
     background-color:rgba(0,0,0,0.3);
     height: 500px;
 }
+
+/* 導覽列區塊 */
 #nav{
     display: inline-block;
+}
+
+nav a{
+    /* 增加下底框線 */
+    border-bottom: 1.5px solid #fff;
+    padding: 8px;
+}
+
+#logo{
+    /* 字體大小 fz2e(2倍) */
+    font-size: 2em;  
+}
+
+a{
+    /* 文字裝飾 td - 將連結底線消失*/
+    text-decoration: none;
 }
