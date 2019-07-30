@@ -1,12 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    /* 字體 ff */
     font-family: 微軟正黑體;
+    /* 字體顏色 c#fff(xxx裡面填顏色代碼,ex:白色fff) */
     color: #ffffff;
 }
 body{
     height: 100%;
+    /* 背景來源 bgi */
     background-image: url(https://images.unsplash.com/photo-1457518919282-b199744eefd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    /* 背景尺寸 bgs */
     background-size: 150%;
 }
 #box{
