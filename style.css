@@ -11,7 +11,7 @@
 body{
     height: 100%;
     /* 背景來源 bgi */
-    background-image: url(https://images.unsplash.com/photo-1457518919282-b199744eefd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-image: url(https://images.unsplash.com/photo-1546843806-76391bfbb4f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     /* 背景尺寸 bgs */
     background-size: 150%;
 }
