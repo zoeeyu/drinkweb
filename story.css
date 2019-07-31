@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 可以查看各區域邊框 */
+    border: 0.5px solid rgba(63, 60, 60, 0);
+    /* 字體 ff */
+    font-family: 微軟正黑體;
+    /* 字體顏色 c#fff(xxx裡面填顏色代碼,ex:白色fff) */
+    color: #ffffff;
+
+}
+body,html{
+    height: 100%;
+    /* 背景來源 bgi */
+    background-image: url(https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1405&q=80);
+    /* 背景尺寸 bgs */
+    background-size: cover; 
+}
+/* 盒子區塊 */
+#box{
+    background-color:rgba(0,0,0,0);
+    height: 500px;
+    width: 70%;
+    margin: 90px auto 0;
+}
+
+/* 導覽列區塊 */
+nav a{
+    /* 增加下底框線 */
+    border-bottom: 1.5px solid #fff;
+    padding: 8px;
+}
+
+#logo{
+    /* 字體大小 fz2e(2倍) */
+    font-size: 1.7em; 
+    /* 字體變粗 */
+    font-weight: bold;
+}
+
+nav div{
+    float: right;
+}
+a{
+    /* 文字裝飾 td - 將連結底線消失*/
+    text-decoration: none;
+}
+/* 滑動的效果 */
+nav a:hover{
+    background-color: rgba(28, 39, 32, 0.3);
+}
+
+/* 內容區域 */
+main{
+    margin-top:100px;
+}
+.drink{
+    background-image: url(https://images.unsplash.com/photo-1556881286-fc6915169721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 0 5px 4px rgba(0,0,0,0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    margin-right: 10px; 
+}
+.coffee{
+    background-image: url(https://images.unsplash.com/photo-1551148321-105bb1f3aec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+    width: 48%;
+    height: 500px;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 0 5px 4px rgba(0,0,0,0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.5); 
+    border-radius: 20%; 
+}
+
+/* 頁尾 */
+footer{
+    position: fixed;
+    background-color: rgba(28, 39, 32, 0.3);
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
