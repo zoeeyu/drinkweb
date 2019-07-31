@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>drink</title>
-    <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="contactus.css">
 </head>
 <body>
     <div id="box">
@@ -16,14 +16,18 @@
                 <a href="contactus.html">聯絡我</a>
             </div>
         </nav>
-        <main>
-            <div class="drink">
-                <h2>手搖飲料</h2>
+        <form action="post">
+            <label for="name">姓名:</label>
+            <input type="text" name="name" id="name" required placeholder="請輸入您的姓名">
+            <label for="email">信箱：</label>
+            <input type="email" name="email" id="email" required placeholder="請輸入您的信箱">
+            <label for="message">請留下您想對我們說的話:</label>
+            <textarea rows="15" cols="30" id="message" required></textarea>
+            <div id="button">
+                <input type="reset" value="重新輸入" class="btn">
+                <input type="submit" value="確認送出" class="btn">
             </div>
-            <div class="coffee">
-                <h2>咖啡</h2>
-            </div>
-        </main>
+        </form>
         <!-- 頁尾 -->
     </div>
     <!-- 多行換行可以選取來,按alt+上/下 -->
